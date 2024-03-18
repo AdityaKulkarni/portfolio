@@ -1,0 +1,41 @@
+[
+	{
+		"company": "Unboxed Software",
+		"title": "Software Engineer",
+		"start": "May 2023",
+		"end": "August 2023",
+		"projects": [
+			{
+				"name": "",
+				"description": "",
+				"stack": ""
+			}
+		]
+	},
+	{
+		"company": "Schlumberger",
+		"title": "Full Stack Developer",
+		"start": "September 2020",
+		"end": "August 2022",
+		"projects": [
+			{
+				"name": "",
+				"description": "",
+				"stack": ""
+			}
+		]
+	},
+	{
+		"company": "Schlumberger",
+		"title": "Mobility Developer Intern",
+		"start": "June 2019",
+		"end": "August 2019",
+		"projects": [
+			{
+				"name": "",
+				"description": "",
+				"stack": ""
+			}
+		]
+	}
+]
