@@ -1,5 +1,18 @@
 [
 	{
+		"company": "SiriusXM",
+		"title": "Backend Engineering Intern",
+		"start": "June 2024",
+		"end": "August 2024",
+		"projects": [
+			{
+				"name": "",
+				"description": "",
+				"stack": ""
+			}
+		]
+	},
+	{
 		"company": "Unboxed Software",
 		"title": "Software Engineer",
 		"start": "May 2023",
