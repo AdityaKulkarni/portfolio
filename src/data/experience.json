@@ -4,6 +4,9 @@
 		"title": "Backend Engineering Intern",
 		"start": "June 2024",
 		"end": "August 2024",
+		"icon": "siriusxm.png",
+		"description": "Specialized in backend development with AWS Lambda and event-driven architecture, while managing cloud infrastructure through multi-region deployments and automated image processing workflows.",
+		"location": "Oakland, CA",
 		"projects": [
 			{
 				"name": "",
@@ -17,6 +20,9 @@
 		"title": "Software Engineer",
 		"start": "May 2023",
 		"end": "August 2023",
+		"icon": "unboxed.jpg",
+		"description": "Focused on AI/ML integration and blockchain development, combining ChatGPT implementation with Solana ecosystem development, while creating developer tools and template engines.",
+		"location": "Remote - UT",
 		"projects": [
 			{
 				"name": "",
@@ -30,6 +36,25 @@
 		"title": "Full Stack Developer",
 		"start": "September 2020",
 		"end": "August 2022",
+		"icon": "slb.svg",
+		"description": "Expertise in frontend development and UX/UI design, implementing ReactJS applications with localization and custom UI components, while building enterprise platform solutions using PowerApps.",
+		"location": "Pune, MH",
+		"projects": [
+			{
+				"name": "",
+				"description": "",
+				"stack": ""
+			}
+		]
+	},
+	{
+		"company": "ChatSwop",
+		"title": "Lead Mobile Developer",
+		"start": "June 2019",
+		"end": "August 2020",
+		"icon": "company.svg",
+		"description": "Mobile development with Android and Kotlin, implementing complex architecture patterns (MVVM) and media processing solutions with camera integration and file compression.",
+		"location": "Remote - AZ",
 		"projects": [
 			{
 				"name": "",
@@ -43,6 +68,9 @@
 		"title": "Mobility Developer Intern",
 		"start": "June 2019",
 		"end": "August 2019",
+		"icon": "slb.svg",
+		"description": "Concentrated on enterprise solutions and database management, specializing in process optimization through SharePoint integration and automated workflow systems.",
+		"location": "Pune, MH",
 		"projects": [
 			{
 				"name": "",
