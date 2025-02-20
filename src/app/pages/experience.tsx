@@ -21,7 +21,7 @@ const Experience = () => {
 				Experience
 			</div>
 			<VerticalTimeline>
-				{experience.map((exp) => (
+				{experience.map((exp, index) => (
 					<VerticalTimelineElement
 						className="vertical-element-timeline-work"
 						date={`${exp.start} - ${exp.end}`}
@@ -33,6 +33,7 @@ const Experience = () => {
 							/>
 						}
 						iconClassName="bg-white"
+						key={index}
 					>
 						<h3 className="vertical-timeline-element-title ">
 							{exp.title}

@@ -13,7 +13,7 @@ const Projects = () => {
 				Projects
 			</div>
 			<VerticalTimeline>
-				{projects.map((project) => (
+				{projects.map((project, index) => (
 					<VerticalTimelineElement
 						className="vertical-element-timeline-work"
 						date={`${project.start} - ${project.end}`}
@@ -25,6 +25,7 @@ const Projects = () => {
 							/>
 						}
 						iconClassName="bg-white"
+						key={index}
 					>
 						<h3 className="vertical-timeline-element-title ">
 							{project.company}
