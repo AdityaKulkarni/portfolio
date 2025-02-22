@@ -1,48 +1,28 @@
 "use client";
 
-import CommonProps from "../common/CommonProps";
 import TechnologyCard from "../components/TechnologyCard";
-import { ScreenSize, useSize } from "../hooks/useSize";
-
-interface IIntroduction extends CommonProps {}
 
 const Introduction = () => {
-	const deviceType = useSize();
-
 	return (
-		<div
-			className={`flex ${
-				deviceType == ScreenSize.MOBILE ? "flex-col" : "flex-row"
-			} flex-1 items-center min-h-screen px-24`}
-		>
-			<div className=" flex items-center justify-center min-w-[40%]">
+		<div className="flex flex-col lg:flex-row items-center">
+			<div className="flex p-8 md:w-[40%] max-w-[600px] max-h-[800px] justify-center">
 				<img
 					src="/aditya.jpeg"
-					className={`${
-						deviceType == ScreenSize.MOBILE ? "mt-24" : "h-[80vh]"
-					} rounded-xl opacity-0 animate-fade`}
+					className={` object-cover rounded-xl opacity-0 animate-fade`}
 				/>
 			</div>
 
-			<div className="flex flex-col flex-1 min-h-screen items-center justify-center gap-20 mx-12">
-				<div className="flex items-center justify-center">
+			<div className="flex flex-col pb-8 lg:w-[60%] gap-4 p-4">
+				<div className="place-items-center lg:place-items-start">
 					<h1
-						className={`text-white ${
-							deviceType == ScreenSize.MOBILE
-								? "text-[40px]"
-								: "text-[140px]"
-						} font-bold`}
+						className={`sm:flex-1 text-center text-[48px] lg:text-[84px] font-bold`}
 					>
 						Aditya Kulkarni
 					</h1>
 				</div>
-				<div className="flex items-center justify-center text-justify tracking-widest">
+				<div className="flex tracking-widest">
 					<h1
-						className={`text-white ${
-							deviceType == ScreenSize.MOBILE
-								? "text-xs w-screen px-4"
-								: "text-md"
-						} font-bold`}
+						className={`text-white sm:text-xs md:text-lg w-screen px-4`}
 					>
 						Detail-oriented software engineer with experience in
 						full-stack development and freelancing as an Android
@@ -59,21 +39,15 @@ const Introduction = () => {
 					</h1>
 				</div>
 				<div
-					className={`flex ${
-						deviceType == ScreenSize.MOBILE
-							? "flex-col"
-							: "flex-row"
-					} items-center justify-center gap-10`}
+					className={`flex flex-col lg:flex-row items-center gap-10`}
 				>
 					<div className="flex flex-row gap-10 items-center justify-center">
 						<TechnologyCard
-							deviceType={deviceType}
 							image="frontend.svg"
 							text="Frontend Developer"
 							classNames="opacity-0 animate-fade-slide-300"
 						/>
 						<TechnologyCard
-							deviceType={deviceType}
 							image="backend.svg"
 							text="Backend Developer"
 							classNames="opacity-0 animate-fade-slide-500"
@@ -81,13 +55,11 @@ const Introduction = () => {
 					</div>
 					<div className="flex flex-row gap-10 items-center justify-center">
 						<TechnologyCard
-							deviceType={deviceType}
 							image="mobile.svg"
 							text="Mobile Developer"
 							classNames="opacity-0 animate-fade-slide-700"
 						/>
 						<TechnologyCard
-							deviceType={deviceType}
 							image="cloud.svg"
 							text="Cloud Developer"
 							classNames="opacity-0 animate-fade-slide-900"

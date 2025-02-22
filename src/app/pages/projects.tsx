@@ -3,13 +3,14 @@ import {
 	VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import projects from "../../data/projects.json"
-import { ScreenSize, useSize } from "../hooks/useSize";
+import projects from "../../data/projects.json";
+
 const Projects = () => {
-	const deviceType = useSize();
 	return (
 		<div className="flex flex-col flex-1 items-center min-h-screen text-black">
-			<div className={`text-white ${deviceType == ScreenSize.MOBILE ? "text-[40px]" : "text-[120px]"} text-start w-full p-4`}>
+			<div
+				className={`text-white text-[40px] lg:text-[120px] text-start w-full p-4 lg:px-16`}
+			>
 				Projects
 			</div>
 			<VerticalTimeline>

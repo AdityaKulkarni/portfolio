@@ -4,19 +4,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import experience from "../../data/experience.json";
-import { ScreenSize, useSize } from "../hooks/useSize";
 
 const Experience = () => {
-	const deviceType = useSize();
-
 	return (
 		<div className="flex flex-col flex-1 items-center min-h-screen text-black py-2">
 			<div
-				className={`text-white ${
-					deviceType == ScreenSize.MOBILE
-						? "text-[40px]"
-						: "text-[120px]"
-				} text-start w-full p-4`}
+				className={`text-white text-[40px] lg:text-[120px] text-start w-full p-4 lg:px-16`}
 			>
 				Experience
 			</div>
