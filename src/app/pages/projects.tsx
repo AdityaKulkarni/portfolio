@@ -7,7 +7,7 @@ import projects from "../../data/projects.json";
 
 const Projects = () => {
 	return (
-		<div className="flex flex-col flex-1 items-center min-h-screen text-black">
+		<div className="flex flex-col flex-1 items-center text-black">
 			<div
 				className={`text-white text-[40px] lg:text-[120px] text-start w-full p-4 lg:px-16`}
 			>

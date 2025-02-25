@@ -20,7 +20,7 @@ const Introduction = () => {
 						Aditya Kulkarni
 					</h1>
 				</div>
-				<div className="flex tracking-widest">
+				{/* <div className="flex tracking-widest">
 					<h1
 						className={`text-white sm:text-xs md:text-lg w-screen px-4`}
 					>
@@ -37,9 +37,9 @@ const Introduction = () => {
 						contribute to impactful software solutions while
 						exploring modern technologies.
 					</h1>
-				</div>
+				</div> */}
 				<div
-					className={`flex flex-col lg:flex-row items-center gap-10`}
+					className={`flex flex-col items-center gap-10`}
 				>
 					<div className="flex flex-row gap-10 items-center justify-center">
 						<TechnologyCard

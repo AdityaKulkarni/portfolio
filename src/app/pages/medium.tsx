@@ -20,7 +20,7 @@ const Medium = () => {
 	};
 
 	return (
-		<div className="flex flex-col flex-1 items-center min-h-screen">
+		<div className="flex flex-col flex-1 items-center ">
 			<div
 				className={`text-white text-[40px] lg:text-[120px] text-start w-full p-4 lg:px-16`}
 			>
@@ -32,7 +32,7 @@ const Medium = () => {
 				) : (
 					feed && (
 						<div
-							className={`grid grid-rows-1 lg:grid-cols-2 gap-2 text-black place-items-center lg:px-16`}
+							className={`grid grid-rows-1 lg:grid-cols-2 gap-2 text-black place-items-center p-4 lg:px-16`}
 						>
 							{feed?.map((item) => (
 								<div
