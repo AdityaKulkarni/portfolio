@@ -9,6 +9,7 @@ const Introduction = () => {
 				<img
 					src="/aditya.jpeg"
 					className={` object-cover rounded-xl opacity-0 animate-fade`}
+					alt="aditya"
 				/>
 			</div>
 
@@ -20,24 +21,6 @@ const Introduction = () => {
 						Aditya Kulkarni
 					</h1>
 				</div>
-				{/* <div className="flex tracking-widest">
-					<h1
-						className={`text-white sm:text-xs md:text-lg w-screen px-4`}
-					>
-						Detail-oriented software engineer with experience in
-						full-stack development and freelancing as an Android
-						developer. Skilled in designing scalable solutions using
-						ReactJS, NodeJS, Kotlin, and AWS. Proficient in building
-						user focused applications and optimizing workflows
-						through innovative design. Strong foundation in data
-						structures, algorithms, and database management, with
-						expertise in cloud computing and microservices
-						architecture. Proven ability to enhance productivity and
-						streamline processes across diverse projects. Driven to
-						contribute to impactful software solutions while
-						exploring modern technologies.
-					</h1>
-				</div> */}
 				<div
 					className={`flex flex-col items-center gap-10`}
 				>

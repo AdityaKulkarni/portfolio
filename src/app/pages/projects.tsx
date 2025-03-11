@@ -23,6 +23,7 @@ const Projects = () => {
 							<img
 								src={project.icon}
 								className="rounded-[50%] object-contain"
+								alt="org"
 							/>
 						}
 						iconClassName="bg-white"

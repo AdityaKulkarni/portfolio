@@ -13,6 +13,7 @@ const TechnologyCard = ({ image, text, classNames }: ITechnologyCard) => {
 				<img
 					className={`object-center sm:max-w-[40%] md:max-w-[80%]`}
 					src={image}
+					alt="technology"
 				/>
 			</div>
 			<div

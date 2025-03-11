@@ -23,6 +23,7 @@ const Experience = () => {
 							<img
 								src={exp.icon}
 								className="rounded-[50%] object-contain"
+								alt="company"
 							/>
 						}
 						iconClassName="bg-white"

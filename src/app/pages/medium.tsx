@@ -49,6 +49,7 @@ const Medium = () => {
 														: "article.svg"
 												}
 												className="h-full w-full rounded-md object-fit"
+												alt="article"
 											/>
 										</div>
 										<div className="mx-2 h-[100px]">
@@ -64,6 +65,7 @@ const Medium = () => {
 											<img
 												src="clap.svg"
 												className="h-[24px] w-[24px]"
+												alt="claps"
 											/>
 											<div className="text-xs text-gray-700 text-center align-middle mx-2">
 												{item.claps}
@@ -74,6 +76,7 @@ const Medium = () => {
 											<img
 												src="comment.svg"
 												className="h-[24px] w-[24px]"
+												alt="comments"
 											/>
 											<div className="text-xs text-gray-700 text-center align-middle mx-2">
 												{item.responses_count}
