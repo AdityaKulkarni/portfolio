@@ -8,7 +8,7 @@ import Contact from "./pages/contact";
 
 export default function Home() {
 	return (
-		<main className="flex flex-col bg-gradient-to-b from-[rgba(19,127,149,1)]  via-[rgba(59,143,142,1)] to-[rgba(2,0,36,1)]  text-white 2xl:px-[20%]">
+		<main className="flex flex-col bg-gradient-to-b from-[rgba(2,0,36,1)] to-[rgba(17,107,125,1)]  text-white 2xl:px-[20%]">
 			<Introduction />
 			<Experience />
 			<Projects />
