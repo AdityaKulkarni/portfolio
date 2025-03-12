@@ -14,7 +14,7 @@ const Introduction = () => {
 			</div>
 
 			<div className="flex flex-col pb-8 lg:w-[60%] gap-4 p-4">
-				<div className="place-items-center lg:place-items-start">
+				<div className="place-items-center">
 					<h1
 						className={`sm:flex-1 text-center text-[48px] lg:text-[84px] font-bold`}
 					>
