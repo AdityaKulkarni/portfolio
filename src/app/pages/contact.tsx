@@ -1,4 +1,4 @@
-import { Google, Instagram, LinkedIn } from "developer-icons";
+import { GitHubLight, Google, Instagram, LinkedIn } from "developer-icons";
 
 const Contact = () => {
 	return (
@@ -35,17 +35,20 @@ const Contact = () => {
                 </a>
 			</div>
 			<div className="flex flex-row flex-wrap gap-4 justify-normal p-4 lg:px-16">
-				<a href="https://www.linkedin.com/in/adityakulkarni1997/">
+				<a href="https://www.linkedin.com/in/adityakulkarni1997/" target="_blank">
 					<LinkedIn />
 				</a>
-				<a href="https://www.instagram.com/adi_kulkarni97/?hl=en">
+				<a href="https://www.instagram.com/adi_kulkarni97/?hl=en" target="_blank">
 					<Instagram />
 				</a>
-				<a href="https://g.dev/AdityaKulkarni">
+				<a href="https://g.dev/AdityaKulkarni" target="_blank">
 					<Google />
 				</a>
-                <a href="https://medium.com/@kulkarniaditya1997">
+                <a href="https://medium.com/@kulkarniaditya1997" target="_blank">
 					<img height={84} width={84} src="medium.svg" alt="Medium" />
+				</a>
+				<a href="https://github.com/AdityaKulkarni" target="_blank">
+					<GitHubLight />
 				</a>
 			</div>
 		</div>
