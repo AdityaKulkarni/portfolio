@@ -43,7 +43,7 @@ const Skills = () => {
 			>
 				Skills
 			</div>
-			<div className="flex flex-row flex-wrap gap-4 justify-normal p-4 lg:px-16">
+			<div className="flex flex-row flex-wrap gap-4 justify-items-start p-4 lg:px-16">
 				<React />
                 <Redux />
 				<NextJs />

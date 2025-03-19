@@ -11,7 +11,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="snap-y snap-mandatory">
 			<title>Aditya Kulkarni</title>
-			<body className={inter.className}>{children}</body>
+			<body className={`${inter.className} overflow-x-hidden`}>{children}</body>
 		</html>
 	);
 }

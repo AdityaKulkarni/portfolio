@@ -52,7 +52,7 @@ const Medium = () => {
 												alt="article"
 											/>
 										</div>
-										<div className="mx-2 h-[100px]">
+										<div className="mx-2 h-[100px] overflow-hidden">
 											<div>{item.title}</div>
 											<div className="text-gray-700 text-xs mt-2">
 												{item.subtitle}
@@ -60,7 +60,7 @@ const Medium = () => {
 										</div>
 									</div>
 									<Spacer height={5} />
-									<div className="flex flex-row p-2 ">
+									<div className="flex flex-row p-2 flex-wrap gap-2">
 										<div className="flex flex-row items-center justify-between">
 											<img
 												src="clap.svg"
