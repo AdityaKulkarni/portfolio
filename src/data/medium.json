@@ -1,0 +1,140 @@
+[
+    {
+        "title": "Securing Your NodeJS Server with Auth0",
+        "subtitle": "In my last ‘Securing Your React Application with Auth0’, we saw how we can add authentication to the frontend side of our project. So in…",
+        "tags": [
+            "nodejs",
+            "auth0",
+            "reactjs",
+            "security",
+            "authentication"
+        ],
+        "claps": 3,
+        "responses_count": 0,
+        "url": "https://medium.com/@kulkarniaditya1997/securing-your-nodejs-server-with-auth0-b5a4b73d99c4",
+        "image_url": "https://miro.medium.com/1*LngSuaYgrV0fYMOgArn6JA.png"
+    },
+    {
+        "title": "Securing Your React Application with Auth0",
+        "subtitle": "In today’s digital world, making your web application secure is of paramount importance whether it’s as simple as a todo app or as complex…",
+        "tags": [
+            "react",
+            "auth0",
+            "authentication",
+            "secutiy"
+        ],
+        "claps": 55,
+        "voters": 2,
+        "responses_count": 1,
+        "url": "https://medium.com/@kulkarniaditya1997/securing-your-react-application-with-auth0-71b40247728d",
+        "image_url": "https://miro.medium.com/1*LngSuaYgrV0fYMOgArn6JA.png"
+    },
+    {
+        "title": "Crafting Jax Pen: Part 6, Deployment using Kubernetes",
+        "subtitle": "In the previous article, we containerized our React and NodeJS apps and used the app through these containers. Now in this last article of…",
+        "tags": [
+            "react",
+            "nodejs",
+            "openai",
+            "docker",
+            "kubernetes"
+        ],
+        "claps": 50,
+        "responses_count": 0,
+        "url": "https://medium.com/@kulkarniaditya1997/crafting-jax-pen-part-6-deployment-using-kubernetes-cbace2919afc",
+        "image_url": "https://miro.medium.com/1*6NKKiAPf2o4jUg1IFaInVA.png"
+    },
+    {
+        "title": "Crafting Jax Pen: Part 5, Containerization using Docker",
+        "subtitle": "After the last article, we have successfully build our own OpenAI powered digital pen pal. The development aspect of our project is not…",
+        "tags": [
+            "react",
+            "nodejs",
+            "openai",
+            "docker",
+            "kubernetes"
+        ],
+        "claps": 47,
+        "responses_count": 0,
+        "url": "https://medium.com/@kulkarniaditya1997/crafting-jax-pen-part-5-containerization-using-docker-6543c6ede6ae",
+        "image_url": "https://miro.medium.com/1*l52kasMV5dAeISbfkbrZCQ.png"
+    },
+    {
+        "title": "Crafting Jax Pen: Part 4, State Management with Redux",
+        "subtitle": "So far, after the last article, we have created a digital pen pal which can talk to us about our day. But if you have noticed, each time we…",
+        "tags": [
+            "react",
+            "nodejs",
+            "openai",
+            "docker",
+            "kubernetes"
+        ],
+        "claps": 1,
+        "responses_count": 0,
+        "url": "https://medium.com/@kulkarniaditya1997/crafting-jax-pen-part-4-state-management-with-redux-416df405c10d",
+        "image_url": "https://miro.medium.com/1*4ubFNh5OJDi-VnXdMjSxiQ.png"
+    },
+    {
+        "title": "Crafting Jax Pen: Part 3, Connecting React to NodeJS via REST API",
+        "subtitle": "In this part, we will connect the React app frontend to the NodeJS Express server we created in the previous article. After this article…",
+        "tags": [
+            "react",
+            "nodejs",
+            "openai",
+            "docker",
+            "kubernetes"
+        ],
+        "claps": 0,
+        "voters": 0,
+        "responses_count": 0,
+        "url": "https://medium.com/@kulkarniaditya1997/crafting-jax-pen-part-3-connecting-react-to-nodejs-via-rest-api-22635e79c018",
+        "image_url": "https://miro.medium.com/1*pyd0ComOCrt6bmVcDyydZg.png"
+    },
+    {
+        "title": "Crafting Jax Pen: Part 2, NodeJS Backend",
+        "subtitle": "In this part, we will create a simple NodeJS server for our pen pal application. This server will have a single endpoint which will stream…",
+        "tags": [
+            "react",
+            "nodejs",
+            "openai",
+            "docker",
+            "kubernetes"
+        ],
+        "claps": 1,
+        "responses_count": 0,
+        "url": "https://medium.com/@kulkarniaditya1997/crafting-jax-pen-part-2-nodejs-backend-ed5ceca93da5",
+        "image_url": "https://miro.medium.com/1*zCHWyHvNZ5dTzFArMS2zdw.png"
+    },
+    {
+        "title": "Crafting Jax Pen: Part 1, The React Frontend",
+        "subtitle": "Welcome to the first part of this comprehensive series, The React Frontend. If you missed the introductory post, head over to this link to…",
+        "tags": [
+            "react",
+            "nodejs",
+            "docker",
+            "kubernetes",
+            "openai"
+        ],
+        "claps": 52,
+        "voters": 3,
+        "responses_count": 1,
+        "url": "https://medium.com/@kulkarniaditya1997/crafting-jax-pen-part-1-the-react-frontend-08c54918a9a0",
+        "image_url": "https://miro.medium.com/1*eXLReNco0OsrVJMXcgTX5A.png"
+    },
+    {
+        "title": "A Comprehensive Guide to Building a Chat Application with React + Redux, NodeJS, OpenAI, Docker and…",
+        "subtitle": "Navigating through endless Google searches to find a comprehensive tutorial on a specific end-to-end project can be a daunting task. Often…",
+        "tags": [
+            "react",
+            "nodejs",
+            "docker",
+            "kubernetes",
+            "openai"
+        ],
+        "claps": 66,
+        "voters": 6,
+        "responses_count": 1,
+        "url": "https://medium.com/@kulkarniaditya1997/a-comprehensive-guide-to-building-a-chat-application-with-react-redux-nodejs-openai-docker-and-781a9efab2d5",
+        "image_url": "https://miro.medium.com/1*Nj1jh9_MJA8lx_q7yzLWrQ.png"
+    }
+]
