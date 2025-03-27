@@ -28,7 +28,7 @@ const Contact = () => {
 				</div>
 
                 
-                <a href="/Aditya_Kulkarni_Resume.pdf" download="Aditya_Kulkarni_Resume">
+                <a href="https://drive.google.com/file/d/1Km6isBO9T0p54wP0fMVDLz4xguIeMBrJ/view?usp=sharing" target="_blank">
                     <span className="underline">
                         Download My Resume
                     </span>
