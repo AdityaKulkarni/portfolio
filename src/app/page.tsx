@@ -6,9 +6,10 @@ import Medium from "./pages/medium";
 import Skills from "./pages/skills";
 import Contact from "./pages/contact";
 import ParticleBackground from "./components/ParticleBackground";
+
 export default function Home() {
 	return (
-		<main className="flex flex-col bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white 2xl:px-[20%] relative min-h-screen">
+		<main className="flex flex-col bg-[#111827] text-white 2xl:px-[20%] relative min-h-screen">
 			<ParticleBackground />
 			<Introduction />
 			<Experience />

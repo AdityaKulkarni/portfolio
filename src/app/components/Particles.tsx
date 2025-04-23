@@ -18,9 +18,9 @@ const Particles = ({ count = 2000 }: ParticlesProps) => {
   const particlePositions = useMemo(() => {
     const positions = new Float32Array(count * 3);
     for (let i = 0; i < count * 3; i += 3) {
-      positions[i] = (Math.random() - 0.5) * 12;     // x
+      positions[i] = (Math.random() - 0.5) * 25;     // x
       positions[i + 1] = (Math.random() - 0.5) * 1; // y
-      positions[i + 2] = (Math.random() - 0.5) * 12;  // z
+      positions[i + 2] = (Math.random() - 0.5) * 5;  // z
     }
     initialPositions.current = positions.slice(); // Store initial positions
     return positions;
@@ -49,14 +49,12 @@ const Particles = ({ count = 2000 }: ParticlesProps) => {
   return (
     <Points ref={points} positions={particlePositions}>
       <PointMaterial
-        transparent
-        vertexColors
         size={0.2}
         sizeAttenuation={true}
         depthWrite={false}
         blending={THREE.AdditiveBlending}
-        color="#1E88E5"
-        opacity={1}
+        color="#0D47A1"
+        opacity={0.3}
         alphaTest={0.001}
       />
     </Points>

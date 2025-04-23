@@ -8,11 +8,11 @@ const Contact = () => {
 			>
 				Contact
 			</div>
-			<div className="flex flex-col bg-white rounded-lg p-4 text-black m-4 lg:mx-16">
+			<div className="flex flex-col bg-[#1F2937] rounded-lg p-4 text-[#CBD5E1] m-4 lg:mx-16 hover:bg-[#374151] transition-colors duration-300">
 				<div className="flex flex-row mb-2">
 					Email:
 					<a href="mailto:kulkarniaditya1997@gmail.com">
-						<span className="underline">
+						<span className="underline text-[#60A5FA] hover:text-[#93C5FD]">
 							kulkarniaditya1997@gmail.com
 						</span>
 					</a>

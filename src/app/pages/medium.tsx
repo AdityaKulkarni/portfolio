@@ -37,7 +37,7 @@ const Medium = () => {
 							{feed?.map((item) => (
 								<div
 									key={item.id}
-									className="flex flex-col bg-white rounded-lg p-2 m-4 cursor-pointer"
+									className="flex flex-col bg-[#1F2937] hover:bg-[#374151] transition-all duration-300 rounded-lg p-2 m-4 cursor-pointer shadow-lg"
 									onClick={() => redirectToArticle(item.url)}
 								>
 									<div className="flex flex-row">
@@ -53,8 +53,8 @@ const Medium = () => {
 											/>
 										</div>
 										<div className="mx-2 h-[100px]">
-											<div>{item.title}</div>
-											<div className="text-gray-700 text-xs mt-2">
+											<div className="text-[#CBD5E1]">{item.title}</div>
+											<div className="text-[#93C5FD] text-xs mt-2">
 												{item.subtitle}
 											</div>
 										</div>
