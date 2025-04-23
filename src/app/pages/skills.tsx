@@ -31,8 +31,6 @@ const skillsData = [
 	{ Icon: TailwindCSS, name: 'Tailwind CSS', category: 'frontend' },
 	{ Icon: HTML5, name: 'HTML5', category: 'frontend' },
 	{ Icon: CSS3, name: 'CSS3', category: 'frontend' },
-	{ Icon: TypeScript, name: 'TypeScript', category: 'frontend' },
-	{ Icon: JavaScript, name: 'JavaScript', category: 'frontend' },
 	
 	// Backend
 	{ Icon: NodeJs, name: 'Node.js', category: 'backend' },
@@ -79,7 +77,8 @@ const Skills = () => {
 	useEffect(() => {
 		const filtered = selectedCategory === 'All' 
 			? [...skillsData] 
-			: [...skillsData.filter(skill => skill.category.toLowerCase() === selectedCategory.toLowerCase())];
+			: [...skillsData.filter(skill => 
+				skill.category.toLowerCase() === selectedCategory.toLowerCase())];
 		setFilteredSkills(filtered);
 	}, [selectedCategory]);
 
