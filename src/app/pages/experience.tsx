@@ -1,45 +1,34 @@
-import {
-	VerticalTimeline,
-	VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+'use client';
+import ExperienceCard from "../components/ExperienceCard";
 import experience from "../../data/experience.json";
+import SectionTitle from "../components/SectionTitle";
+import PageLayout from "../components/PageLayout";
 
 const Experience = () => {
 	return (
-		<div className="flex flex-col flex-1 items-center text-black py-2">
-			<div
-				className={`text-white text-[40px] lg:text-[120px] text-start w-full p-4 lg:px-16`}
-			>
-				Experience
-			</div>
-			<VerticalTimeline>
+		<PageLayout>
+			<SectionTitle title="Experience" />
+
+			<div className="flex flex-col gap-8 w-full p-4 lg:px-16 z-10">
 				{experience.map((exp, index) => (
-					<VerticalTimelineElement
-						className="vertical-element-timeline-work"
-						date={`${exp.start} - ${exp.end}`}
-						dateClassName="text-white"
-						icon={
-							<img
-								src={exp.icon}
-								className="rounded-[50%] object-contain"
-								alt="company"
-							/>
-						}
-						iconClassName="bg-white"
-						key={index}
-					>
-						<h3 className="vertical-timeline-element-title ">
-							{exp.title}
-						</h3>
-						<h4 className="vertical-timeline-element-subtitle ">
-							{`${exp.company}, ${exp.location}`}
-						</h4>
-						<p>{exp.description}</p>
-					</VerticalTimelineElement>
+					<ExperienceCard key={index} {...exp} index={index} />
 				))}
-			</VerticalTimeline>
-		</div>
+			</div>
+
+			{/* Add keyframe animation */}
+			<style jsx global>{`
+				@keyframes fadeIn {
+					from {
+						opacity: 0;
+						transform: translateY(20px);
+					}
+					to {
+						opacity: 1;
+						transform: translateY(0);
+					}
+				}
+			`}</style>
+		</PageLayout>
 	);
 };
 
