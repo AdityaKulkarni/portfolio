@@ -41,7 +41,7 @@ const skillsData = [
 	{ Icon: PostgreSQL, name: 'PostgreSQL', category: 'backend' },
 	{ Icon: MySQL, name: 'MySQL', category: 'backend' },
 	{ Icon: Redis, name: 'Redis', category: 'backend' },
-	{ Icon: Auth0, name: 'Node.js', category: 'backend' },
+	{ Icon: Auth0, name: 'Auth0', category: 'backend' },
 	
 	// Cloud
 	{ Icon: AWS, name: 'AWS', category: 'cloud' },
