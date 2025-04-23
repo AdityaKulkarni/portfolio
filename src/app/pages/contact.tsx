@@ -10,7 +10,7 @@ const Contact = () => {
 			<div className="w-full max-w-7xl px-4 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
 				{/* Contact Info Card */}
 				<div className="card-base p-8 backdrop-blur-sm">
-					<h2 className="text-accent text-2xl font-semibold mb-6">Let's Connect</h2>
+					<h2 className="text-accent text-2xl font-semibold mb-6">Let&apos;s Connect</h2>
 					
 					{/* Email */}
 					<div className="flex items-center gap-4 mb-6 group">
