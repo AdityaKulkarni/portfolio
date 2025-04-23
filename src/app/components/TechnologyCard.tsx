@@ -7,7 +7,9 @@ interface ITechnologyCard {
 const TechnologyCard = ({ image, text, classNames }: ITechnologyCard) => {
 	return (
 		<div
-			className={`bg-gray-800 rounded-[20px] py-5 px-12 w-[200px] flex flex-1 justify-center items-center flex-col ${classNames}`}
+			className={`bg-[#1F2937] hover:bg-[#374151] transition-all duration-300 
+				rounded-[20px] py-5 px-12 w-[200px] flex flex-1 justify-center 
+				items-center flex-col shadow-lg ${classNames}`}
 		>
 			<div className="flex flex-1 items-center justify-center">
 				<img
@@ -17,7 +19,7 @@ const TechnologyCard = ({ image, text, classNames }: ITechnologyCard) => {
 				/>
 			</div>
 			<div
-				className={`text-white sm:text-xs md:text-[18px] font-bold text-center mt-4`}
+				className={`text-[#CBD5E1] sm:text-xs md:text-[18px] font-bold text-center mt-4`}
 			>
 				{text}
 			</div>

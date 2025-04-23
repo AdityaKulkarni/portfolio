@@ -4,7 +4,7 @@ import TechnologyCard from "../components/TechnologyCard";
 
 const Introduction = () => {
 	return (
-		<div className="flex flex-col lg:flex-row items-center">
+		<div className="flex flex-col lg:flex-row items-center z-10">
 			<div className="flex p-8 md:w-[40%] max-w-[600px] max-h-[800px] justify-center">
 				<img
 					src="/aditya.jpeg"

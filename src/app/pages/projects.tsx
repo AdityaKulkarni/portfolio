@@ -1,45 +1,26 @@
-import {
-	VerticalTimeline,
-	VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+'use client';
+import ExperienceCard from "../components/ExperienceCard";
 import projects from "../../data/projects.json";
+import SectionTitle from "../components/SectionTitle";
+import PageLayout from "../components/PageLayout";
 
 const Projects = () => {
 	return (
-		<div className="flex flex-col flex-1 items-center text-black">
-			<div
-				className={`text-white text-[40px] lg:text-[120px] text-start w-full p-4 lg:px-16`}
-			>
-				Projects
+		<PageLayout>
+			<SectionTitle title="Projects" />
+
+			<div className="w-full max-w-6xl px-4 lg:px-16 pb-20">
+				<div className="relative">
+					{projects.map((project, index) => (
+						<ExperienceCard
+							key={index}
+							{...project}
+							index={index}
+						/>
+					))}
+				</div>
 			</div>
-			<VerticalTimeline>
-				{projects.map((project, index) => (
-					<VerticalTimelineElement
-						className="vertical-element-timeline-work"
-						date={`${project.start} - ${project.end}`}
-						dateClassName="text-white"
-						icon={
-							<img
-								src={project.icon}
-								className="rounded-[50%] object-contain"
-								alt="org"
-							/>
-						}
-						iconClassName="bg-white"
-						key={index}
-					>
-						<h3 className="vertical-timeline-element-title ">
-							{project.company}
-						</h3>
-						<h4 className="vertical-timeline-element-subtitle ">
-							{`${project.title}, ${project.location}`}
-						</h4>
-						<p>{project.description}</p>
-					</VerticalTimelineElement>
-				))}
-			</VerticalTimeline>
-		</div>
+		</PageLayout>
 	);
 };
 
