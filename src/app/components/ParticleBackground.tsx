@@ -18,12 +18,12 @@ interface ParticleBackgroundProps {
 
 const ParticleBackground = ({ className }: ParticleBackgroundProps) => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full -z-10">
+    <div className="fixed top-0 left-0 w-full h-full z-[0]">
       <Suspense fallback={null}>
         <Canvas
-          camera={{ position: [0, 0, 5], fov: 75 }}
+          camera={{ position: [0, 0, 8], fov: 60 }}
           style={{ background: 'transparent' }}
-          dpr={[1, 2]} // Optimize for retina displays
+          dpr={[1, 2]}
         >
           <ambientLight intensity={0.5} />
           <Particles count={2000} />
