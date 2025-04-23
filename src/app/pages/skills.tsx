@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import SectionTitle from "../components/SectionTitle";
 import PageLayout from "../components/PageLayout";
 import { 
@@ -74,10 +74,14 @@ const skillsData = [
 
 const Skills = () => {
 	const [selectedCategory, setSelectedCategory] = useState('All');
+	const [filteredSkills, setFilteredSkills] = useState(skillsData);
 
-	const filteredSkills = selectedCategory === 'All' 
-		? skillsData 
-		: skillsData.filter(skill => skill.category.toLowerCase() === selectedCategory.toLowerCase());
+	useEffect(() => {
+		const filtered = selectedCategory === 'All' 
+			? [...skillsData] 
+			: [...skillsData.filter(skill => skill.category.toLowerCase() === selectedCategory.toLowerCase())];
+		setFilteredSkills(filtered);
+	}, [selectedCategory]);
 
 	return (
 		<PageLayout>
