@@ -15,7 +15,7 @@
 		"end": "July 2022",
 		"icon": "freelancer.svg",
 		"description": "Merged mobile development with real-time systems, focusing on e-commerce functionality through Firebase integration and collection management features.",
-		"location": "Remote - UT"
+		"location": "Kolhapur, MH, IN"
 	},
 	{
 		"company": "Digitized Vaccination",
@@ -24,7 +24,7 @@
 		"end": "March 2020",
 		"icon": "sppu.jpg",
 		"description": "Applied healthcare technology solutions through NFC integration and process automation, specializing in digital records management and administrative workflows.",
-		"location": "Pune, MH"
+		"location": "Pune, MH, IN"
 	},
 	{
 		"company": "Smart Library MMPS Mumbai",
@@ -33,6 +33,6 @@
 		"end": "May 2019",
 		"icon": "freelancer.svg",
 		"description": "Developed content management solutions with media integration capabilities, creating a community platform focused on user engagement and digital content distribution.",
-		"location": "Remote - AZ"
+		"location": "Pune, MH, IN"
 	}
 ]
