@@ -59,7 +59,7 @@ const Contact = () => {
 						</div>
 						<div className="flex flex-col">
 							<span className="text-secondary text-sm">Resume</span>
-							<a href="https://drive.google.com/file/d/1Km6isBO9T0p54wP0fMVDLz4xguIeMBrJ/view?usp=sharing" 
+							<a href="https://drive.google.com/file/d/1F--y9yqLkqIJ2HQ0iZfBExUTaAkGPtbC/view?usp=sharing" 
 								target="_blank"
 								className="text-primary hover:text-accent transition-colors duration-300">
 								Download CV

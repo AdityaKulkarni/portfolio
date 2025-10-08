@@ -1,5 +1,21 @@
 [
 	{
+		"company": "Spresso.ai",
+		"title": "Software Engineer",
+		"start": "June 2025",
+		"end": "August 2025",
+		"icon": "spresso.jpg",
+		"description": "Implemented secure, high-performance backend solutions—introducing field-level API whitelisting, optimizing Redis caching, and achieving near-complete test coverage. Designed scalable architectures and integrated the Spresso SDK, driving a 20% boost in client product profits.",
+		"location": "Remote - NY",
+		"projects": [
+			{
+				"name": "",
+				"description": "",
+				"stack": ""
+			}
+		]
+	},
+	{
 		"company": "SiriusXM",
 		"title": "Backend Engineering Intern",
 		"start": "June 2024",
@@ -19,7 +35,7 @@
 		"company": "Unboxed Software",
 		"title": "Software Engineer",
 		"start": "August 2022",
-		"end": "August 2023",
+		"end": "July 2023",
 		"icon": "unboxed.jpg",
 		"description": "Focused on AI/ML integration and blockchain development, combining ChatGPT implementation with Solana ecosystem development, while creating developer tools and template engines.",
 		"location": "Remote - UT",
@@ -38,7 +54,7 @@
 		"end": "August 2022",
 		"icon": "slb.svg",
 		"description": "Expertise in frontend development and UX/UI design, implementing ReactJS applications with localization and custom UI components, while building enterprise platform solutions using PowerApps.",
-		"location": "Pune, MH",
+		"location": "Pune, MH, IN",
 		"projects": [
 			{
 				"name": "",
@@ -70,7 +86,7 @@
 		"end": "August 2019",
 		"icon": "slb.svg",
 		"description": "Concentrated on enterprise solutions and database management, specializing in process optimization through SharePoint integration and automated workflow systems.",
-		"location": "Pune, MH",
+		"location": "Pune, MH, IN",
 		"projects": [
 			{
 				"name": "",
